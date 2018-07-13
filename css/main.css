@@ -27,9 +27,12 @@
 #aboutme .container .clearFilters span{ text-shadow: 0 0px 0 #fff; font-weight: 400;}
 #aboutme .collapseButton { text-align: center; text-decoration: none; cursor: pointer; outline: none;  color: #4f4f4f; display: inline-block; padding: 5px 10px; border: 1px solid #4f4f4f; border-radius: 20px; transition: all 0.2s ease-in; display: block; overflow: hidden; margin: auto; margin-bottom:20px; width: 100px; height:35px;}
 #aboutme .navbar .navbar-nav { margin: auto; text-transform: uppercase; font-size: 0.7em; margin-bottom: 20px;}
-#aboutme .navbar .navbar-nav .active {text-decoration: underline; color: rgba(50, 50, 255, 0.8) !important; border-right: 1px solid rgba(0,0,0,0.5);}
-#aboutme .navbar .navbar-nav .nav-item {border-right: 1px solid rgba(0,0,0,0.2); line-height: 1px;}
+#aboutme .navbar .navbar-nav .active {text-decoration: underline; border-right: 1px solid rgba(0,0,0,0.5);}
+#aboutme .navbar .navbar-nav .nav-item {border-right: 1px solid rgba(0,0,0,0.2); line-height: 1px; width: 200px; text-align: center;}
 #aboutme .navbar .navbar-nav .nav-item:last-child {border: 0px;}
+#aboutme .progSkillBox {  width: 50px;height: 50px; display: inline-block; margin: 25px; margin-top: 10px; margin-bottom: 40px;}
+#aboutme .progSkillBox .progressbar-text{  text-align: center; top:130% !important; width:100px;}
+#aboutme .progressiveBar{ display: none; margin-left: 33px; margin-right: 30px;}
 
 /*Projects page*/
 #projects {padding-top: 230px !important;}

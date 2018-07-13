@@ -14,8 +14,10 @@ function createHorizontalTimeline(parent, id, timeEvents){
   timeline += timelineItems + '</ul></div>';
   $(parent).append($(timeline)[0]);
 
-  $('.iconType').on('click', function(){
-    filterTimelineEvents(this);
+  $('.timeline-badge').on('click', function(e){
+    var elemClass = ($(e.target).attr('class') != null) ? $(e.target).attr('class') : "";
+    if(elemClass.includes('iconType') || elemClass.includes('timeline-badge'))
+      filterTimelineEvents($(this));
   });
 
   $('.clearFilters').on('click', function(){
@@ -25,7 +27,7 @@ function createHorizontalTimeline(parent, id, timeEvents){
 
 function filterTimelineEvents(element){
   var elementParent  = $(element).parent();
-  var eventType      = $(elementParent).attr('value');
+  var eventType      = $(element).attr('value');
   var timelineEvents = $('.timeline-horizontal').find('li');
 
   for (var index = 0, currentBadge = "", li = "", clearFilters = ""; index < timelineEvents.length; index++) {
@@ -42,7 +44,7 @@ function filterTimelineEvents(element){
 
 function clearTimelineEvents(element){
   var timelineEvents = $('.timeline-horizontal').find('li');
-  for (var index = 0, currentBadge = "", li = "", closeFilter = ""; index < timelineEvents.length; index++) {
+  for (var index = 0, li = "", closeFilter = ""; index < timelineEvents.length; index++) {
     $(timelineEvents[index]).css('display', 'table-cell');
     $('.clearFilters').css('display', 'none');
   }
