@@ -1,0 +1,42 @@
+{
+  "page":{
+      "icon":"imgs/me.jpg"
+  },
+
+  "aboutme":{
+    "image":"imgs/me.jpg",
+    "title":"About Me",
+    "description":"My name is Rodrigo França Martins and I'm a 25 years old Computer Science Engineer from Portugal. I'm currently living in Madrid, working on VILT with several tools from OpenText. In my free times I like to play video games, watch movies, listen music, being with my friends and draw. I'm also a big sport's fan, specially a football (soccer) enthusiast.",
+    "timelineEvents": [
+      {"initDate":"Sep 2010", "finalDate":"Jul 2014", "company":"IST", "title":"Barchelor Student", "image":"imgs/ist.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Studies", "icon": "fa-graduation-cap" },
+      {"initDate":"Oct 2012", "finalDate":"Feb 2013", "company":"CASA", "title":"Volunteer", "image":"imgs/casa.svg", "location":"🇵🇹 Lisbon, Portugal","type":"Volunteering", "icon": "fa-hands-helping" },
+      {"initDate":"Sep 2013", "finalDate":"Feb 2014", "company":"SINFO", "title":"Marketing", "image":"imgs/sinfo.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Events", "icon": "fa-handshake" },
+      {"initDate":"Sep 2014", "finalDate":"Feb 2015", "company":"SINFO", "title":"Strategic Partnerships", "image":"imgs/sinfo.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Events", "icon": "fa-handshake" },
+      {"initDate":"Sep 2014", "finalDate":"Jun 2018", "company":"IST", "title":"Master Student", "image":"imgs/ist.jpg", "location":"🇵🇹 Lisbon, Portugal","type":"Studies", "icon": "fa-graduation-cap" },
+      {"initDate":"Sep 2015", "finalDate":"Feb 2016", "company":"SINFO", "title":"Graphics", "image":"imgs/sinfo.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Events", "icon": "fa-handshake" },
+      {"initDate":"Nov 2015", "finalDate":"Jul 2017", "company":"União Zoófila", "title":"Volunteer", "image":"imgs/uz.jpeg", "location":"🇵🇹 Lisbon, Portugal", "type":"Volunteering", "icon": "fa-hands-helping" },
+      {"initDate":"Sep 2016", "finalDate":"Feb 2017", "company":"SINFO", "title":"Events", "image":"imgs/sinfo.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Events", "icon": "fa-handshake" },
+      {"initDate":"Jul 2016", "finalDate":"Sep 2017", "company":"LINK", "title":"Summer Internship", "image":"imgs/link.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Work", "icon": "fa-building" },
+      {"initDate":"Oct 2017", "finalDate":"Until the moment", "company":"VILT", "title":"Junior Consultant", "image":"imgs/vilt.png", "location":"🇪🇸 Madrid, Spain", "type":"Work", "icon": "fa-building" },
+      {"initDate":" ", "finalDate":" ", "company":"Locked", "title":"", "image":"imgs/lock.svg", "location":"Planet Earth", "icon": "fa-lock" }
+    ]
+
+  },
+
+  "main":{
+    "image":"imgs/me.jpg",
+    "name":"Rodrigo França Martins",
+    "job":"Junior Consultant at <a class='underline' target='_blanck' href='https://www.vilt-group.com/pt'>VILT</a>",
+    "linkedin": "https://www.linkedin.com/in/rodrigo-martins-b4b5bb88/",
+    "github": "https://github.com/Rodrigo12"
+  },
+
+  "projects":[
+    { "image": "imgs/FollowMyStepsAppIcon.png", "title": "Follow My Steps", "tags":"html, css, javascript, nodejs, postgresql, ionic 2, typescript", "description":"Follow My Steps is a system, developed for both web and mobile, to study the best way to present visualizations to users, regarding their past experiences based on lifelogging data collected over an extended period of time, in a personally relevant way. It offers a personalized interface, with 9 different visualizations techniques, built to help users with their forgotten memories or experiences.", "link":"", "githubLink":"https://github.com/Rodrigo12/Follow-My-Steps" },
+    { "image": "imgs/me.jpg", "title": "Website", "tags":"html, css, javascript", "description":"Junior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at Vilt", "link":"somewhere/on/the/internet" },
+    { "image": "imgs/wos.png", "title": "World of SINFO", "tags":"phaser", "description":"Junior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at Vilt", "link":"somewhere/on/the/internet" },
+    { "image": "imgs/kitt.png", "title": "Kitt", "tags":"html, css, javascript", "description":"Junior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at Vilt", "link":"somewhere/on/the/internet" },
+    { "image": "imgs/frogger3d.png", "title": "Frogger", "tags":"webgl, c++", "description":"Junior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at Vilt", "link":"somewhere/on/the/internet" },
+    { "title": "The Maze", "tags":"Unity, C#", "description":"Junior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at ViltJunior Consultant at Vilt" }
+  ]
+}
