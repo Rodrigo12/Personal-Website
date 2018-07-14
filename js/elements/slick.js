@@ -8,7 +8,8 @@ function createSlick(data, parent, id, slidesToShow){
     dots: true,
     centerPadding: '7px',
     slidesToShow: slidesToShow,
-    slidesToScroll:2
+    slidesToScroll:2,
+    autoplay:true
   });
 }
 

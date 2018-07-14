@@ -1,13 +1,3 @@
-// <div class="input-group mb-3">
-
-// <select class="custom-select" >
-// <option selected>Choose...</option>
-// <option value="1">One</option>
-// <option value="2">Two</option>
-// <option value="3">Three</option>
-// </select>
-// </div>
-
 function createSelectElement(parent, id, data){
   var select  = '<div class="input-group mb-3"><select class="custom-select" id="'+id+'">';
   var options = '<option value="1">All</option>';

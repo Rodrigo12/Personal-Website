@@ -9,10 +9,11 @@ function createAboutMePage(data){
 
   parentDiv.append($(container)[0]);
 
-  createCollapse('#aboutme .container', 'collapseAboutMe', '<i class="fas fa-long-arrow-alt-down"></i> More', function(){
+  createCollapse('#aboutme .container', 'collapseAboutMe', '&plus;', function(){
     createNavbar('#collapseAboutMe', 'navbarAboutMe', data.tabs);
     createHorizontalTimeline('#collapseAboutMe', 'horizontalTimeline', data.slide1Data);
-    createProgrammableSkills('#collapseAboutMe', 'progressiveBar', data.slide2Data);
+    createProgrammableSkills('#collapseAboutMe', 'progressBarCircle', 'Circle', data.slide2Data);
+    createProgrammableSkills('#collapseAboutMe', 'progressBarLine', 'Line', data.slide3Data);
   });
 
   $('#navbarAboutMe .nav-item').on('click', function(){
@@ -24,18 +25,19 @@ function createAboutMePage(data){
 }
 
 function showTab0(){
-  $( "#collapseAboutMe .progressiveBar" ).css( "display", "none" );
+  $( "#collapseAboutMe .progressBarCircle" ).css( "display", "none" );
+  $( "#collapseAboutMe .progressBarLine" ).css( "display", "none" );
   $( "#collapseAboutMe .timelineHorizontal" ).fadeIn( 600, "linear" );
-//  $( "#collapseAboutMe .timelineHorizontal" ).fadeOut( 600, "linear" );
 }
 
 function showTab1(){
   $( "#collapseAboutMe .timelineHorizontal" ).css( "display", "none" );
-  $( "#collapseAboutMe .progressiveBar" ).fadeIn( 600, "linear" );
+  $( "#collapseAboutMe .progressBarLine" ).css( "display", "none" );
+  $( "#collapseAboutMe .progressBarCircle" ).fadeIn( 600, "linear" );
 }
 
 function showTab2(){
-  $( "#collapseAboutMe .progressiveBar" ).css( "display", "none" );
+  $( "#collapseAboutMe .progressBarCircle" ).css( "display", "none" );
   $( "#collapseAboutMe .timelineHorizontal" ).css( "display", "none" );
-  $( "#collapseAboutMe .timelineHorizontal" ).fadeOut( 600, "linear" );
+  $( "#collapseAboutMe .progressBarLine" ).fadeIn( 600, "linear" );
 }

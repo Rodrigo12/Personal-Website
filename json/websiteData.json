@@ -50,7 +50,21 @@
         "trailWidth":"1"
       }
     },
-    "slide3Data":[]
+    "slide3Data":{
+      "data":[
+        {"name":"Portuguese 🇵🇹","value":1},
+        {"name":"English 🇬🇧","value":0.8},
+        {"name":"Spanish 🇪🇸","value":0.7},
+        {"name":"French 🇫🇷","value":0.1}
+      ],
+      "bar":{
+        "color":"#595959",
+        "bkgColor":"#eee",
+        "width":"1",
+        "duration":"5000",
+        "trailWidth":"1"
+      }
+    }
   },
 
   "main":{

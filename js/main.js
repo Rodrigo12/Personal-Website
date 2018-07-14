@@ -1,6 +1,6 @@
 function createPages(){
   /*Args: parentId, id, numberOfSlides, activeSlideIndex, withBottomMarkers, withArrows*/
-  createCarousel("slides", "mainCarousel", 3, 0, true, true);
+  createCarousel("slides", "mainCarousel", 3, 1, false, true);
   getJson('json/websiteData.json');
 }
 
