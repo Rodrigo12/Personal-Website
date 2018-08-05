@@ -11,7 +11,7 @@
 #projects .slick-list {margin: 0 -10px; height:240px !important;}
 
 /*Button See more*/
-#projects .slickSlider .slickSlide .slideButton { outline: none; text-decoration: none; color: #4f4f4f; display: inline-block; padding: 5px 10px; border: 1px solid #4f4f4f; border-radius: 20px; transition: all 0.2s ease-in; position: relative; overflow: hidden; margin: auto; margin-top:10px; width: 35px; height:35px;}
+#projects .slickSlider .slickSlide .slideButton { outline: none; text-decoration: none; color: #4f4f4f; display: inline-block; padding: 5px 9px; border: 1px solid #4f4f4f; border-radius: 20px; transition: all 0.2s ease-in; position: relative; overflow: hidden; margin: auto; margin-top:10px; width: 35px; height:35px;}
 #projects .slickSlider .slickSlide .buttonMore:hover { cursor: pointer; outline: none; text-decoration: none; color: #ffffff; border: 1px solid rgba(0,153,0,0.5); background-color: rgba(0,153,0,0.5);}
 #projects .slickSlider .slickSlide .buttonLink:hover { cursor: pointer; outline: none; text-decoration: none; color: #ffffff; border: 1px solid rgba(0,0,255,0.5); background-color: rgba(0, 115, 153,0.5);}
 #projects .slickSlider .slickSlide .buttonGithub:hover { cursor: pointer; outline: none; text-decoration: none; color: #ffffff; border: 1px solid rgba(50,50,50,0.5); background-color: rgba(100, 100, 100,0.5);}
