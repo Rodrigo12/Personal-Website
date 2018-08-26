@@ -8,7 +8,7 @@
   "aboutme":{
     "image":"imgs/me.jpg",
     "title":"About Me",
-    "description":"My name is Rodrigo França Martins and I'm a 25 years old Computer Science Engineer from Portugal. I'm currently living in Madrid, working on VILT with several tools from OpenText. In my free times I like to play video games, watch movies, listen music, being with my friends and draw. I'm also a big sport's fan, specially a football (soccer) enthusiast.",
+    "description":"My name is Rodrigo França Martins and I'm a 25 years old Computer Science Engineer from Portugal. I'm currently living in Madrid and working with several tools from OpenText at VILT. In my free times I like to play video games, watch movies, listen music, being with my friends and draw. I'm also a big sport's fan, specially a football (soccer) enthusiast.",
     "tabs":["Experience Timeline", "Programmable Skills", "Communication Skills"],
     "slide1Data": [
       {"initDate":"Sep 2010", "finalDate":"Jul 2014", "company":"IST", "title":"Barchelor Student", "image":"imgs/IST.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Studies", "icon": "fa-graduation-cap" },
