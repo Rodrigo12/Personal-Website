@@ -20,7 +20,8 @@
       {"initDate":"Nov 2015", "finalDate":"Jul 2017", "company":"União Zoófila", "title":"Volunteer", "image":"imgs/uz.jpeg", "location":"🇵🇹 Lisbon, Portugal", "type":"Volunteering", "icon": "fa-hands-helping" },
       {"initDate":"Sep 2016", "finalDate":"Feb 2017", "company":"SINFO", "title":"Events", "image":"imgs/SINFO.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Events", "icon": "fa-handshake" },
       {"initDate":"Jul 2016", "finalDate":"Sep 2017", "company":"LINK", "title":"Summer Internship", "image":"imgs/link.jpg", "location":"🇵🇹 Lisbon, Portugal", "type":"Work", "icon": "fa-building" },
-      {"initDate":"Oct 2017", "finalDate":"Until the moment", "company":"VILT", "title":"Junior Consultant", "image":"imgs/vilt.png", "location":"🇪🇸 Madrid, Spain", "type":"Work", "icon": "fa-building" },
+      {"initDate":"Oct 2017", "finalDate":"Feb 2020", "company":"VILT", "title":"Junior Consultant", "image":"imgs/vilt.png", "location":"🇪🇸 Madrid, Spain", "type":"Work", "icon": "fa-building" },
+      {"initDate":"Feb 2020", "finalDate":"Until the moment", "company":"Alten", "title":"Consultant", "image":"imgs/alten.png", "location":"🇫🇷 Nice, France", "type":"Work", "icon": "fa-building" },
       {"initDate":" ", "finalDate":" ", "company":"Locked", "title":"", "image":"imgs/lock.svg", "location":"Planet Earth", "icon": "fa-lock" }
     ],
     "slide2Data":{
@@ -30,15 +31,15 @@
           {"name":"Javascript","value":0.9},
           {"name":"Bootstrap","value":0.9},
           {"name":"PostgreSQL","value":0.8},
+          {"name":"Angular","value":0.8},
+          {"name":"Typescript","value":0.8},
           {"name":"Node.js","value":0.8},
           {"name":"Ionic 2","value":0.7},
           {"name":"SQL","value":0.7},
           {"name":"Java","value":0.7},
-          {"name":"C++","value":0.6},
+          {"name":"C#","value":0.7},
+          {"name":"C++","value":0.4},
           {"name":"ObjectiveC","value":0.4},
-          {"name":"Angular","value":0.4},
-          {"name":"Typescript","value":0.3},
-          {"name":"C#","value":0.3},
           {"name":"Common Lisp","value":0.3},
           {"name":"MatLab","value":0.2},
           {"name":"WebGL","value":0.2},
@@ -57,7 +58,7 @@
         {"name":"Portuguese 🇵🇹","value":1},
         {"name":"English 🇬🇧","value":0.8},
         {"name":"Spanish 🇪🇸","value":0.7},
-        {"name":"French 🇫🇷","value":0.01}
+        {"name":"French 🇫🇷","value":0.1}
       ],
       "bar":{
         "color":"#595959",
@@ -75,7 +76,7 @@
   "main":{
     "image":"imgs/me.jpg",
     "name":"Rodrigo França Martins",
-    "job":"Junior Consultant at <a class='underline' target='_blanck' href='https://www.vilt-group.com/en'>VILT</a>",
+    "job":"Consultant at <a class='underline' target='_blanck' href='https://www.alten.fr/'>ALTEN</a>",
     "linkedin": "https://www.linkedin.com/in/rodrigo-martins-b4b5bb88/",
     "github": "https://github.com/Rodrigo12"
   },
